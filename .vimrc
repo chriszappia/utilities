@@ -9,6 +9,10 @@ set expandtab
 set smarttab
 set autoindent
 
+" Display tabs as >---
+set list
+set listchars=tab:>-
+
 " UI
 set number
 set showcmd
@@ -25,7 +29,6 @@ set smartcase
 
 " Keymaps
 nnoremap <C-N> :bn<CR>
-
 
 " make inactive splits have dark status line
 highlight StatusLineNC cterm=bold ctermfg=white ctermbg=darkgray
