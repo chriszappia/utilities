@@ -32,3 +32,6 @@ nnoremap <C-N> :bn<CR>
 
 " make inactive splits have dark status line
 highlight StatusLineNC cterm=bold ctermfg=white ctermbg=darkgray
+
+" Line wrap with cursor
+set whichwrap+=<,>,[,] " arrow keys
