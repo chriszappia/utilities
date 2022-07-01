@@ -28,7 +28,10 @@ set hlsearch
 set smartcase
 
 " Keymaps
+" ctrl + n to next buffer
 nnoremap <C-N> :bn<CR>
+" ctrl + p to previous buffer
+nnoremap <C-P> :bp<CR>
 
 " make inactive splits have dark status line
 highlight StatusLineNC cterm=bold ctermfg=white ctermbg=darkgray
